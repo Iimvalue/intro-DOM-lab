@@ -8,8 +8,7 @@ pItem.style.fontWeight = "bold";
 
 let img = document.getElementsByTagName("img")[0];
 
-img.src =
-  "https://cdn-icons.flaticon.com/svg/6422/6422202.svg?token=exp=1746604144~hmac=4456ab305b1521605693f64f4f467908";
+img.src ="https://cdn-icons.flaticon.com/svg/6422/6422202.svg?token=exp=1746604144~hmac=4456ab305b1521605693f64f4f467908";
 img.style.width = "100px";
 
 let ulTag = document.querySelector("ul");
@@ -32,7 +31,7 @@ liTag.forEach((li) => {
 
 let tableTag = document.getElementsByTagName("table")[0];
 tableTag.innerHTML = `
-  <tr>
+  <tr class="js-table">
     <th> Head</th>
     <th> Head</th>
     <th> Head</th>

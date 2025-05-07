@@ -8,9 +8,8 @@ pItem.classList.add("pClass");
 
 let img = document.getElementsByTagName("img")[0];
 
-img.src =
-  "https://cdn-icons.flaticon.com/svg/6422/6422202.svg?token=exp=1746604144~hmac=4456ab305b1521605693f64f4f467908";
-img.style.width = "100px";
+img.src = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpixy.org%2Fsrc%2F477%2F4774988.jpg&f=1&nofb=1&ipt=d5f9adb3eb4c6c402a6c0708e1a7c29cda66dd69283b62cad421c1f2c89f73e9";
+img.style.width = "100px"
 
 let ulTag = document.querySelector("ul");
 ulTag.innerHTML = `

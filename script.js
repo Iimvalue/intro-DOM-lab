@@ -4,11 +4,12 @@ welcomeClass.style.color = "blue";
 welcomeClass.style.backgroundColor = "gray";
 
 let pItem = document.getElementById("p-item");
-pItem.style.fontWeight = "bold";
+pItem.classList.add("pClass");
 
 let img = document.getElementsByTagName("img")[0];
 
-img.src ="https://cdn-icons.flaticon.com/svg/6422/6422202.svg?token=exp=1746604144~hmac=4456ab305b1521605693f64f4f467908";
+img.src =
+  "https://cdn-icons.flaticon.com/svg/6422/6422202.svg?token=exp=1746604144~hmac=4456ab305b1521605693f64f4f467908";
 img.style.width = "100px";
 
 let ulTag = document.querySelector("ul");
@@ -19,14 +20,12 @@ ulTag.innerHTML = `
 `;
 
 ulTag.style.color = "blue";
-ulTag.style.display = "inline";
-
 let liTag = ulTag.querySelectorAll("li");
 
 liTag.forEach((li) => {
   li.style.color = "black";
   li.style.display = "inline-block";
-  li.style.border = "1px soild #eee";
+  li.style.border = "1px solid black";
 });
 
 let tableTag = document.getElementsByTagName("table")[0];

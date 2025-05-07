@@ -7,3 +7,10 @@
 .js-table{
     background-color: purple;
 }
+
+
+.pClass{
+    font-weight: bold;
+    color: red;
+    background-color: blue;
+}
